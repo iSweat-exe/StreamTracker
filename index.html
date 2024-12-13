@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Streamer </title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <!-- CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div id="content">
+        <section class="user-info">
+            <p class="username" id="streamerUsername"></p>
+
+            <p class="game" id="game"></p>
+
+            <div class="live-info-container">
+                <img class="minia-preview" id="liveThumbnail" alt="Preview du live">
+            </div>
+
+            <p class="stream-title" id="Title"></p>
+
+            <div class="button-container">
+                <a class="live-link" id="liveLink" shref=""></a>
+            </div>
+
+            <div class="streamer-stats">
+                <div class="viewers-info">
+                    <p id="viewersTitle">Viewers</p>
+                    <p class="viewer-count" id="viewerCount"></p>
+                </div>
+    
+                <div class="streamTimer-info">
+                    <p id="streamTimerTitle">Durée</p>
+                    <p id="streamTimer"></p>
+                </div>
+            </div>
+
+            <div class="social-icons">
+                <a href="https://www.instagram.com/MiziTW" target="_blank" class="social-icon">
+                    <i class="fab fa-instagram"></i>
+                </a>
+
+                <a href="https://www.tiktok.com/@MiziTW" target="_blank" class="social-icon">
+                    <i class="fab fa-tiktok"></i>
+                </a>
+
+                <a href="https://www.youtube.com/@mizitw" target="_blank" class="social-icon">
+                    <i class="fab fa-youtube"></i>
+                </a>
+
+                <a href="https://www.snapchat.com/add/MiziTW" target="_blank" class="social-icon">
+                    <i class="fab fa-snapchat fa-solid"></i>
+                </a>
+
+                <a href="https://discord.com/invite/PhMEncWbZE" target="_blank" class="social-icon">
+                    <i class="fab fa-discord"></i>
+                </a>
+
+                <a href="https://twitter.com/Mizi_TW" target="_blank" class="social-icon">
+                    <i class="fab fa-x-twitter"></i>
+                </a>
+            </div>
+        </section>
+    </div>
+    
+    <script src="test.js"></script>
+    <script type="text/javascript" src="https://cdn.rawgit.com/ricmoo/aes-js/e27b99df/index.js"></script>
+</body>
+
+</html>

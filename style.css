@@ -1,0 +1,197 @@
+/* Init : style.css */
+/* Init */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", serif;
+}
+
+:root {
+  /* Colors */
+  --primary-color: #fff;
+  --secondary-color: #000;
+
+  /* CTA Colors */
+  --button-stream: #6441a5;
+
+  /* Social Media - Colors */
+  --twitter: #1da1f2;
+  --youtube: #ff0033;
+  --snapchat: #fffc00;
+  --discord: #7289da;
+
+  --tiktok: #000000;
+  --tiktok-effect-1: #ff0050;
+  --tiktok-effect-2: #00f2ea;
+
+  --insta: #e1306c;
+  --insta-effect-1: #f9ce34;
+  --insta-effect-2: #ee2a7b;
+  --insta-effect-3: #6228d7;
+}
+
+body,
+html {
+  color: #010101;
+  overflow: hidden;
+  background-color: black;
+}
+
+/* Extension */
+.user-info {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--primary-color);
+  width: 375px;
+  height: 500px;
+  border-radius: 10px;
+}
+
+/* Streamer Username */
+.username {
+  color: var(--secondary-color);
+  text-align: center;
+  margin: 15px 10px 0px 10px;
+  font-size: 24px;
+  font-weight: 700;
+  font-weight: 800;
+}
+
+/* Game Name */
+.game {
+  color: var(--secondary-color);
+  text-align: center;
+  margin: 8px 10px 5px 10px;
+  font-size: 16px;
+  font-weight: 800;
+}
+
+/* Miniature */
+.live-info-container {
+  display: flex;
+  justify-content: center;
+}
+	.minia-preview {
+	border-radius: 10px;
+	width: 90%;
+	}
+
+/* Stream Title */
+.stream-title {
+  color: #010101cc;
+  text-align: center;
+  margin: 10px 10px 0px 10px;
+  font-size: 16px;
+  font-weight: 800;
+}
+
+/* Live Link - Button */
+.button-container {
+  display: flex;
+  justify-content: center;
+}
+
+/* Live Link */
+.live-link {
+  color: var(--primary-color);
+  background-color: var(--button-stream);
+  text-align: center;
+  margin: 10px 0px 10px 0px;
+  padding: 10px 75px 10px 75px;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: 800;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+	.live-link:hover {
+	background-color: #3b1386;
+	}
+
+/* Viewers Count */
+.streamer-stats {
+  display: flex;
+  justify-content: space-between;
+  margin: 0px 70px 0px 70px;
+}
+
+	.viewers-info {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	margin: 10px 10px 0px 10px;
+	color: var(--secondary-color);
+	font-size: 16px;
+	font-weight: 800;
+	}
+
+	.streamTimer-info {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	margin: 10px 10px 0px 10px;
+	color: var(--secondary-color);
+	font-size: 16px;
+	font-weight: 800;
+	}
+
+/* Social Media */
+.social-icons {
+	position: absolute;
+	display: flex;
+	gap: 25px;
+	justify-content: center;
+	margin-top: 49vh;
+	margin-left: 30px;
+}
+
+	.social-icons a {
+	color: var(--secondary-color);
+	text-decoration: none;
+	font-size: 30px;
+	/* transition: all 0.2s ease-in-out; */
+	}
+
+		.social-icons a:nth-child(1):hover {
+		color: transparent;
+		background: linear-gradient(
+			to bottom right,
+			var(--insta-effect-1),
+			var(--insta-effect-2),
+			var(--insta-effect-3)
+		);
+		background-clip: text;
+		}
+
+		.social-icons a:nth-child(2):hover {
+		color: #000000;
+		text-shadow: 1px 1px 0px var(--tiktok-effect-1),
+			-1px -1px 0px var(--tiktok-effect-2), 1px -1px 0px var(--tiktok-effect-1);
+		transition: text-shadow 0.3s ease;
+		}
+
+		.social-icons a:nth-child(3):hover {
+		color: var(--youtube);
+		}
+
+		.social-icons a:nth-child(4):hover {
+		color: var(--snapchat);
+		}
+
+		.social-icons a:nth-child(5):hover {
+		color: var(--discord);
+		}
+
+		.social-icons a:nth-child(6):hover {
+		opacity: 0.8;
+		}
+
+.offline {
+	opacity: 0.5;
+	color: #607D8B; /* Couleur de fond pour l'état hors ligne */
+  }
+  
+.offline-text {
+	display: none;
+}
