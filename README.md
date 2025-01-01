@@ -23,7 +23,7 @@ Avant de commencer, assurez-vous d'avoir installé les éléments suivants :
 
 1. Clonez ce dépôt sur votre machine locale ou téléchargez le code source.
    ```bash
-   git clone https://github.com/votre-utilisateur/StreamerTracker.git
+   git clone https://github.com/iSweat-exe/StreamerTracker.git
    ```
 
 2. Ouvrez le dossier du projet dans votre éditeur de code.
